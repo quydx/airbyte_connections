@@ -1,0 +1,17 @@
+README.md
+setup.py
+integration_tests/__init__.py
+integration_tests/abnormal_state.json
+integration_tests/acceptance.py
+integration_tests/configured_catalog.json
+integration_tests/invalid_config.json
+integration_tests/sample_config.json
+integration_tests/sample_state.json
+source_google_trends/__init__.py
+source_google_trends/source.py
+source_google_trends/spec.yaml
+source_google_trends.egg-info/PKG-INFO
+source_google_trends.egg-info/SOURCES.txt
+source_google_trends.egg-info/dependency_links.txt
+source_google_trends.egg-info/requires.txt
+source_google_trends.egg-info/top_level.txt

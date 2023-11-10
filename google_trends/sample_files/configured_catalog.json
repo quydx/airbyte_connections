@@ -1,0 +1,23 @@
+{
+  "streams": [
+    {
+      "stream" : {
+        "name" : "googleTrend",
+        "supported_sync_modes" : [
+          "full_refresh"
+        ],
+        "source_defined_cursor" : false,
+        "json_schema" : {
+          "type" : "object",
+          "properties" : {
+            "column1" : {
+              "type" : "string"
+            }
+          }
+        }
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    }
+  ]
+}

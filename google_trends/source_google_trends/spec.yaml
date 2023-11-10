@@ -1,0 +1,19 @@
+documentationUrl: https://docsurl.com
+connectionSpecification:
+  $schema: http://json-schema.org/draft-07/schema#
+  title: Google Trends Spec
+  type: object
+  required:
+    - word
+    - start_date
+    - end_date
+  properties:
+    word:
+      type: string
+      description: word
+    start_date:
+      type: string
+      description: start date
+    end_date:
+      type: string
+      description: end date
